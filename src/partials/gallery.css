@@ -8,7 +8,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 20px;
-  background-color: darkblue;
+  background-color: lightblue;
 }
 
 .search-form {
@@ -25,7 +25,7 @@ input[type='text'] {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: blueviolet;
+  background-color: blue;
   color: white;
   border: none;
   cursor: pointer;
@@ -34,6 +34,7 @@ button {
 
 button:hover {
   background-color: plum;
+  color: green;
 }
 
 .gallery {
@@ -41,6 +42,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  background-color: lightgrey;
 }
 
 .photo-card {
@@ -77,6 +79,4 @@ button:hover {
   transition: background-color 0.3s;
 }
 
-.load-more:hover {
-  background-color: grey;
-}
+
