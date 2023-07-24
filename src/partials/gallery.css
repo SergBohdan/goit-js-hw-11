@@ -6,9 +6,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: darkblue;
 }
 
 .search-form {
@@ -25,7 +25,7 @@ input[type='text'] {
 button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: blueviolet;
   color: white;
   border: none;
   cursor: pointer;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: plum;
 }
 
 .gallery {
@@ -78,5 +78,5 @@ button:hover {
 }
 
 .load-more:hover {
-  background-color: #0056b3;
+  background-color: grey;
 }
